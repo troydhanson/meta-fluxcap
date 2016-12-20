@@ -12,8 +12,8 @@ SRC_URI = "gitsm://github.com/troydhanson/fluxcap.git;protocol=https;branch=mast
 SRCREV = "775c55e7243e7929b29377291d2399c1948add14"
 
 # FIXME 
-SRC_URI[md5sum] = "0"
-SRC_URI[sha256sum] = "0"
+#SRC_URI[md5sum] = "0"
+#SRC_URI[sha256sum] = "0"
 
 S = "${WORKDIR}/git"
 
